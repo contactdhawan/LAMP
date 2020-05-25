@@ -7,7 +7,7 @@ Resources:
     Properties:
       Handler: app.lambda_handler
       Runtime: python3.6
-      CodeUri: s3://samlambdaneerajbuck/d581384a2e3196715209463ddf1bb890
+      CodeUri: s3://samlambdaneerajbuck/86cea58f61b123deeed192d31213a754
       Description: A starter AWS Lambda function.
       MemorySize: 128
       Timeout: 3

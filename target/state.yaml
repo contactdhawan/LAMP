@@ -7,7 +7,13 @@ Resources:
     Properties:
       Handler: app.lambda_handler
       Runtime: python3.6
-      CodeUri: s3://samlambdaneerajbuck/86cea58f61b123deeed192d31213a754
+      CodeUri: s3://samlambdaneerajbuck/1bd72bedb02469c1b98660b3649fac02
       Description: A starter AWS Lambda function.
       MemorySize: 128
       Timeout: 3
+      Events:
+        NEERAJSAMAPI:
+          Type: Api
+          Properties:
+            Path: /hello
+            Method: GET

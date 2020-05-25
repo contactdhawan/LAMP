@@ -9,5 +9,5 @@ def respond(err, res=None):
     }
 
 def lambda_handler(event, context):
-    return respond(NONE,"Hello World")
+    return respond(None,res="Hello World")
 
